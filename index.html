@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Caption Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 60px auto; text-align: center; }
+        .caption-box { margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 8px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h1>🖼️ Image Caption Generator</h1>
+    <p>Oka image upload chesi caption generate cheyandi</p>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <br><br>
+        <button type="submit">Generate Caption</button>
+    </form>
+
+    {% if caption %}
+    <div class="caption-box">
+        <strong>Generated Caption:</strong> {{ caption }}
+    </div>
+    {% endif %}
+</body>
+</html>
