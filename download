@@ -1,0 +1,7 @@
+venv/
+data/
+*.pkl
+*.h5
+__pycache__/
+static_upload.jpg
+.ipynb_checkpoints/
