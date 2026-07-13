@@ -1,8 +1,0 @@
-tensorflow==2.15.0
-numpy==1.26.4
-pandas==2.1.4
-pillow==10.2.0
-tqdm==4.66.1
-flask==3.0.0
-matplotlib==3.8.2
-nltk==3.8.1
